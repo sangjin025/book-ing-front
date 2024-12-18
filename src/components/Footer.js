@@ -9,7 +9,6 @@ export default function Footer() {
       <Link to="/comment">
         <StyledBtn>Mycomment</StyledBtn>
       </Link>
-      <StyledBtn>Mypage</StyledBtn>
       <PostBtn>
         <PostBtnImg src={PencilImg} alt="PencilImg" />
       </PostBtn>
@@ -46,7 +45,7 @@ const StyledBtn = styled.button`
     background-color: #795548;
     border-radius: 10px;
   }
-  width: 70px;
+  width: 85px;
   height: 25px;
 `;
 
