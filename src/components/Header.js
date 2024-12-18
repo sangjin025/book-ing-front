@@ -28,12 +28,7 @@ const Logo = styled.button`
   background-color: #ffffff;
 
   :hover {
-<<<<<<< HEAD
     /* background-color: green; */
-=======
-    background-color: green;
-    border-radius: 5px;
->>>>>>> 9bccb1bf7d685edd7df00b99ca6cdc42faf39812
   }
 `;
 
