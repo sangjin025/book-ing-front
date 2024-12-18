@@ -13,7 +13,7 @@ function BookDetails() {
           method: "GET",
           url: `https://dapi.kakao.com/v3/search/book?query='Harry'`,
           headers: {
-            Authorization: `KakaoAK 6a6a4c4e045812d9cd57047946f8c58d`,
+            Authorization: `KakaoAK 164c8e069d9ba9d5d2fec9e376d89317`,
           },
         });
         setBookData(response.data.documents); // 책 데이터를 상태로 설정

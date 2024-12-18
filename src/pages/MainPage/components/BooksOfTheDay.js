@@ -27,13 +27,9 @@ export default function BooksOfTheDay({
                 <BtnWrapper>
                   {/* <BestLinesBtn>BestLines</BestLinesBtn> */}
                   <MyCommentsBtn>
-<<<<<<< HEAD
                     <StyledLink to="/comment">
                       BestLines & MyComments
                     </StyledLink>
-=======
-                    <StyledLink to="/login">BestLines & MyComments</StyledLink>
->>>>>>> 9bccb1bf7d685edd7df00b99ca6cdc42faf39812
                   </MyCommentsBtn>
                 </BtnWrapper>
               </BooksDivRight>
