@@ -1,0 +1,25 @@
+.SubTitle {
+    font-size: 24px;
+}
+
+.MyCommentsBox {
+    background-color: #fefefe;
+    max-width: 400px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Container {
+    display: flex;
+}
+.WriteButton {
+    font-size: 10px;
+    justify-content: flex-end;
+    position: relative;
+    top: 24px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 5%;
+}
