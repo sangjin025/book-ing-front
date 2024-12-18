@@ -7,7 +7,10 @@ import "../MainPage/MyCalendarCss.css";
 import BooksOfTheDay from "./components/BooksOfTheDay";
 import bookcover1 from "../../assets/images/booksCover1.png";
 import demianCover from "../../assets/images/demianCover.png";
+<<<<<<< HEAD
 import harryCover from "../../assets/images/harryImg.png";
+=======
+>>>>>>> 9bccb1bf7d685edd7df00b99ca6cdc42faf39812
 
 export default function MainPage() {
   const [value, setValue] = useState(new Date());
@@ -25,11 +28,14 @@ export default function MainPage() {
   };
 
   const booksByDate = {
+<<<<<<< HEAD
     "2024-12-15": {
       title: "해리포터와 마법사의 돌",
       bestLine: '"꿈에 사로잡혀 살다가 진짜 삶을 놓쳐선 안돼"',
       bookCoverImg: harryCover,
     },
+=======
+>>>>>>> 9bccb1bf7d685edd7df00b99ca6cdc42faf39812
     "2024-12-16": {
       title: "소년이 온다",
       bestLine: '"당신을 잃은 뒤 우리들의 시간은 저녁이 되었습니다."',
